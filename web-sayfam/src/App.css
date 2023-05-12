@@ -30,9 +30,11 @@ body {
 }
 
 .image-item {
-  border-top: 1.6rem solid rgb(47, 157, 174);
-  border-left: 1.3rem solid rgb(47, 157, 174);
+  border-top: 1.6rem solid rgba(233, 37, 119, 1);
+  border-left: 1.3rem solid rgba(233, 37, 119, 1);
   border-radius: 3.5rem;
+  
+
 }
 .info {
   color: #ea2678;

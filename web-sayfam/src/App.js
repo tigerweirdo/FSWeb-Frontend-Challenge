@@ -7,6 +7,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 import Checkbox from "./Components/Header/Checkbox";
 
+
 function App() {
   const prefferedLang = localStorage.getItem("settedLang") === "true";
   const [language, setLanguage] = useState(prefferedLang);
