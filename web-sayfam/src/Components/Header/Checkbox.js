@@ -31,7 +31,7 @@ const Checkbox = ({ theme, themeHandler, languageHandler, language }) => {
             className="text-[15px] text-[#E92577] font-bold dark:text-[#E92577]"
             onClick={languageHandler}
           >
-            {language === false ? "TÜRKÇE" : "ENG"}
+            {language === false ? "ENG" : "TÜRKÇE"}
   </button>
   <span className="text-[#777777] text-[15px] font-bold">'YE GEÇ</span>
 </div>
