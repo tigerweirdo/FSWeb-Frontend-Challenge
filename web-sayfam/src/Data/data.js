@@ -16,7 +16,7 @@ export function Email(params) {
       Currently <span style={{ color: "#AF0C48" }}>Freelancing </span> for
       <span style={{ color: "#AF0C48" }}> UX, UI, & Web Design</span> Project .
       Invite me to join your team -
-      <span style={{ color: "#AF0C48" }}> pratamaiosi@gmail.com</span>
+      <span style={{ color: "#AF0C48" }}> temmuzcetiner@gmail.com</span>
     </>
   );
 }
@@ -24,7 +24,7 @@ export function Email2(params) {
   return (
   <>
   Şu anda <span style={{ color: "#AF0C48" }}>UX, UI ve Web Tasarımı</span> projeleri için <span style={{ color: "#AF0C48" }}>serbest  olarak çalışıyorum</span>. Ekibinize katılmam için davet edebilirsiniz -
-  <span style={{ color: "#AF0C48" }}> pratamaiosi@gmail.com</span>
+  <span style={{ color: "#AF0C48" }}> temmuzcetiner@gmail.com</span>
   </>
   );
   }
@@ -36,8 +36,6 @@ export const HeaderData = {
       content:
         "I’m Temmuz. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
       headerBrands: { linkedin: linkedin, github: github, image: image },
-      mailData:
-        "Currently Freelancing for UX, UI, & Web Design Project . Invite me to join your team -> pratamaiosi@gmail.com",
     },
   ],
   tr: [
@@ -46,8 +44,6 @@ export const HeaderData = {
       content:
         "Ben Temmuz. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünler geliştirebilirim. Tanışalım!",
       headerBrands: { linkedin: linkedin, github: github, image: image },
-      mailData:
-        "Şu anda UX, UI ve Web Tasarım Projeleri için Freelance çalışıyorum. Beni ekibinize davet edin -> pratamaiosi@gmail.com",
     },
   ],
 };

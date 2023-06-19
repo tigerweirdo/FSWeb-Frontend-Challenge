@@ -14,15 +14,19 @@ export function Footer({ language = 'tr' }) {
             <div className="footer"style={{ zIndex: 1}}></div>
           </div>
           <div className="lg:w-1/4 font-medium text-2xl max-sm:flex max-sm:flex-col sm:flex sm:flex-col  max-sm:mt-5 max-sm:text-center sm:text-center sm:mt-5 lg:text-start ">
-            <div className="hover:underline" style={content.github.stil}>
+            <div className="hover:underline" style={content.github.stil}
+            onClick={() => window.open('https://github.com/tigerweirdo', '_blank')}>
               {content.github.title}
             </div>
-            <div className="hover:underline">{content.personalBlog}</div>
-            <div className="hover:underline" style={content.linkedin.stil}>
+            <div className="hover:underline" style={content.linkedin.stil}
+               onClick={() => window.open('https://www.linkedin.com/in/mete-han-%C3%A7etiner-3534431a8/?originalSubdomain=fr', '_blank')}>
               {content.linkedin.title}
             </div>
-            <div className="hover:underline" style={content.Email.stil}>
-              {content.Email.title}
+            <div 
+               className="hover:underline" 
+                 style={content.Email.stil} 
+                 onClick={() => window.location.href='mailto:temmuzcetiner@gmail.com'}>
+               {content.Email.title}
             </div>
           </div>
         </div>
