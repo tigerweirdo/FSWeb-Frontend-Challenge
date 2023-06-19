@@ -1,4 +1,4 @@
-import { profileAboutMe, profileInformation, profileSearch, profilePageText } from "../../Data/data";
+import { profileAboutMe, profileInformation, profileSearch } from "../../Data/data";
 
 
 export function Profile({ language }) {
@@ -64,12 +64,12 @@ const about = profileAboutMe[lang].map((i, index) => (
               {profile}
             </div>
             <div className="lg:w-2/5 lg:ml-16 sm:ml-0 mt-20 dark:text-white">
-  <div className="relative" style={{ zIndex: 2 }}>
-    <div className="mb-5 text-2xl font-normal dark:text-white">{language ? "About Me" : "Hakkımda"}</div>
-    <div className="about dark:text-white"></div>
-    {about}
-  </div>
-</div>
+            <div className="relative" style={{ zIndex: 2 }}>
+            <div className="mb-5 text-2xl font-normal dark:text-white">{language ? "About Me" : "Hakkımda"}</div>
+            <div className="about dark:text-white"></div>
+              {about}
+            </div>
+          </div>
           </div>
         </div>
       </div>
