@@ -16,7 +16,7 @@ export function Email(params) {
       Currently <span style={{ color: "#AF0C48" }}>Freelancing </span> for
       <span style={{ color: "#AF0C48" }}> UX, UI, & Web Design</span> Project .
       Invite me to join your team -
-      <span style={{ color: "#AF0C48" }}> temmuzcetiner@gmail.com</span>
+      <span style={{ color: "#AF0C48" }}> fordprefect@gmail.com</span>
     </>
   );
 }
@@ -24,7 +24,7 @@ export function Email2(params) {
   return (
   <>
   Şu anda <span style={{ color: "#AF0C48" }}>UX, UI ve Web Tasarımı</span> projeleri için <span style={{ color: "#AF0C48" }}>serbest  olarak çalışıyorum</span>. Ekibinize katılmam için davet edebilirsiniz -
-  <span style={{ color: "#AF0C48" }}> temmuzcetiner@gmail.com</span>
+  <span style={{ color: "#AF0C48" }}> fordprefect@gmail.com</span>
   </>
   );
   }
@@ -34,7 +34,7 @@ export const HeaderData = {
     {
       hi: "Hi! 👋",
       content:
-        "I’m Temmuz. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+        "I’m Ford. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
       headerBrands: { linkedin: linkedin, github: github, image: image },
     },
   ],
@@ -42,7 +42,7 @@ export const HeaderData = {
     {
       hi: "Merhaba! 👋",
       content:
-        "Ben Temmuz. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünler geliştirebilirim. Tanışalım!",
+        "Ben Ford. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünler geliştirebilirim. Tanışalım!",
       headerBrands: { linkedin: linkedin, github: github, image: image },
     },
   ],
@@ -80,15 +80,15 @@ export const profileSearch = {
 
 export const profileInformation = {
   en: {
-    date: "16.07.1997",
-    adress: "Istanbul",
-    education: "Sociology",
+    date: "16.07.1949",
+    adress: "Betelgeuse Five",
+    education: "PHD",
     chose: "Full-stack",
   },
   tr: {
-    date: "16.07.1997",
-    adress: "İstanbul",
-    education: "Sosyoloji",
+    date: "16.07.1949",
+    adress: "Betelgeuse Five",
+    education: "Doktora",
     chose: "Full-stack",
   },
 };
@@ -160,7 +160,7 @@ export const footer = {
     Email: { title: "Email", stil: { color: "#AF0C48" } },
   },
   tr: {
-    slogan: "Birlikte bir sonraki ürününüz üzerinde çalışalım.",
+    slogan: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
     github: { title: "Github", stil: { color: "#1769FF" } },
     personalBlog: "Kişisel Blog",
     linkedin: { title: "LinkedIn", stil: { color: "#0077B5" } },
